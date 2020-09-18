@@ -3,3 +3,6 @@
 This is a repo for the website applications development module I took in Year 1 semester 2 of college. 
 
 The link to both assignments will be linked below and you can also check out the files for them in the repo.
+
+https://20084163assignment1.glitch.me/
+https://20084163assignment2-1.glitch.me/
