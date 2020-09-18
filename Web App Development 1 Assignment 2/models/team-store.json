@@ -1,0 +1,17 @@
+{
+  "teamCollection": [
+    {
+      "id": "b27cb28e-055c-48db-b969-06fc38728526",
+      "userid": "609b156f-8844-4870-b160-c523a84a9a39",
+      "title": "Ferrybank",
+      "players": [
+        {
+          "id": "d9a10443-89a7-4caf-bcee-98723e625f3a",
+          "playername": "Kevin",
+          "playernumber": "9",
+          "playerposition": "Left Back"
+        }
+      ]
+    }
+  ]
+}

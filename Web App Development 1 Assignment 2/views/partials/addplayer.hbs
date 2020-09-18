@@ -1,0 +1,17 @@
+<form class="ui stacked segment form" action="/team/{{team.id}}/addplayer" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>Player Name</label>
+      <input placeholder="playername" type="text" name="playername" autofocus required>
+    </div>
+    <div class="field">
+      <label>Player Number</label>
+      <input placeholder="playernumber" type="text" name="playernumber" required>
+    </div>
+    <div class="field">
+      <label>Player Position</label>
+      <input placeholder="playerposition" type="text" name="playerposition" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add player</button>
+</form>

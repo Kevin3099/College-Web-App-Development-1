@@ -1,0 +1,52 @@
+{
+  "teamCollection": [
+    {
+      "id" : "01",
+      "title": "Ferrybank",
+      "players": [
+        {
+           "id":"01",
+          "player": "John Random",
+          "playerNumber": "9",
+          "position": "Striker"
+        },
+        {
+          "id":"02",
+          "player": "Max Random",
+          "playerNumber": "3",
+          "position": "Defender"
+        },
+        {
+          "id":"03",
+          "player": "Alex Random",
+          "playerNumber": "1",
+          "position": "Goal Keeper"
+        }
+      ]
+    },
+    {
+      "id":"02",
+      "title": "Waterford",
+      "players": [
+        {
+          "id":"01",
+          "player": "Joe Random",
+          "playerNumber": "1",
+          "position": "Goal Keeper"
+        },
+        {
+          "id":"02",
+          "player": "Joeseph Random",
+          "playerNumber": "9",
+          "position": "Striker"
+        },
+        {
+          "id":"03",
+          "player": "Josh Random",
+          "playerNumber": "3",
+          "position": "Defender"
+        }
+      ]
+    }
+  ]
+}

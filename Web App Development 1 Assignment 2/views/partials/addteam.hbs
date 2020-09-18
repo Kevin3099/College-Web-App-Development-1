@@ -1,0 +1,16 @@
+<section class="ui stacked segment form" >
+<form action="/dashboard/addteam" method="POST">
+  <div class="field">
+    <label>Team Name</label>
+    <input placeholder="Team Name" type="text" name="title" autofocus required>
+  </div>
+  <button class="ui blue submit button">Add team</button>
+</form>
+  
+ <form action="/dashboard/uploadpicture" method="post" enctype="multipart/form-data">
+          <div class="field">
+            <input type="file" name="picture"> 
+          </div>
+        <button class="ui blue submit button"> Upload Logo</button>
+</form>
+  </section>

@@ -1,0 +1,10 @@
+{{#each teams}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <p> Click the file to see this Team or the bin to delete it. </p>
+    <a href="/team/{{id}}"> <i class="ui folder open icon"></i> </a>
+    <a href="/dashboard/deleteteam/{{id}}"> <i class="ui trash icon delteam"></i> </a>
+</section>
+{{/each}}

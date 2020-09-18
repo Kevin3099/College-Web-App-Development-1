@@ -1,0 +1,10 @@
+{{#each teams}}
+  <section class="ui segment">
+     <h2 class="ui header">
+      {{title}}
+    </h2>
+    <p> Click the red Bin to delete the logo, the folder to view the folder and the Blue bin to delete the team </p>
+    <a href="/team/{{id}}"> <i class="ui folder open icon"></i> </a>
+    <a href="/dashboard/deleteteam/{{id}}"> <i class="ui trash icon delteam"></i> </a>
+</section>
+{{/each}}

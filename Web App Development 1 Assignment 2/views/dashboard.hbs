@@ -1,0 +1,17 @@
+{{> menu id="dashboard"}}
+
+<section class="ui inverted segment">
+  <h1 class="ui header">
+    Welcome {{user.firstName}} {{user.lastName}}
+  </h1>
+<div class="ui inverted segment">
+  {{> addteam}}
+  {{> listteams}}
+  </div>
+   {{#each album.photos}}
+        {{> card }}
+      {{/each}}
+   <div class="ui segment">
+    <a href="/dashboard/deleteallpictures"> <button class="negative ui button">Delete All Logos</button></a>
+  </div>
+</section>

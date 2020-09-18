@@ -1,0 +1,17 @@
+body {
+background-color:lightgray;
+}
+ul,h4 {
+list-style:none;
+}
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}
+.date{
+font-size: 0.9em;
+color: gray;
+  padding-left: 20px;
+}

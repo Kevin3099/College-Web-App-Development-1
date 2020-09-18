@@ -1,0 +1,28 @@
+<table class="ui fixed table">
+  <thead>
+    <tr>
+      <th>player Name</th>
+      <th>player Number</th>
+      <th>Position</th>
+      <th>  </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each team.players}}
+      <tr>
+        <td>
+          {{playername}}
+        </td>
+        <td>
+          {{playernumber}}
+        </td>
+        <td>
+          {{playerposition}}
+        </td>
+        <td>
+          <a href="/team/{{../team.id}}/deleteplayer/{{id}}" class="ui tiny red button delplayer">Delete player</a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
